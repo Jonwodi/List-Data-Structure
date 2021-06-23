@@ -50,6 +50,8 @@ How to slice lists in python
 Add elements to a list
 '''
 
+# modifing a list
+
 # FamousAthletes = ["KD", "MJ", "Drose", "AJ"]
 # FamousAthletes[2] = "Mike Tyson"
 # print(FamousAthletes)
@@ -90,6 +92,7 @@ python list methods
 
 # ====================================
 
+# .append() is method used to add more items to a list.
 
 # FamousAthletes = ["KD", "MJ", "Drose", "AJ"]
 # FamousAthletes.append("Khabib")
@@ -103,6 +106,8 @@ python list methods
 # print(help(list.append))
 
 # ===================================
+
+# .insert() method is uded to add items to list using a index position.
 
 # FamousAthletes = ["KD", "MJ", "Drose", "AJ"]
 # FamousAthletes.insert(0, "Muhammmed Ali")
